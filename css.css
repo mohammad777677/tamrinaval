@@ -1,0 +1,72 @@
+.image-responsive{
+    max-width: 100%;
+}
+.hero_image{
+    background: url("olsbelangah.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 140vh;
+    position: relative;
+}
+.hero_onvan{
+    color: black;
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    transform: translate(-50%,-60%);
+
+}
+.hero_onvan h1{
+    font-size: 2rem;
+    color:chocolate ;
+
+}
+.foorm{
+    text-align: center;
+}
+.foorm .codee{
+
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .4rem;
+    border:none;
+
+
+}
+.foorm button{
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+    margin-top: .5rem;
+    text-align: center;
+    padding: .3rem;
+    border:none;
+}
+.sec2 {
+    width: 80%;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div2 {
+    float: left;
+    width: 32%;
+    margin-left: .5rem;
+}
+
+
+.div2:first-of-type{
+    margin-left: 0;
+}
+@media screen and (max-width: 700px){
+    .div2 {
+        width: 100%;
+        float: none;
+
+
+     }
+}
